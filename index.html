@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/styles.css">
+    <title>Mesema</title>
+</head>
+
+<body>
+    <h1>Your Cart</h1>
+    <div>
+        <div>
+            <label>Enter Item Name</label>
+            <input type="text" id="inp1">
+        </div>
+        <div>
+            <label>Enter Item Price</label>
+            <input type="text" id="inp2">
+        </div>
+        <div>
+            <label>Selcet an Option</label>
+            <select name= catigorey" id="inp3">
+            <option>Drinks</option>
+            <option>Meat</option>
+            <option>Dairy</option>
+            <option>Snacks</option>
+            <option>Basic</option>
+
+            </select>
+        </div>
+
+        <div>
+            <label>Enter Image Link</label>
+            <input type="text" id="inp4">
+        </div>
+        <button onclick="send()" >Add Product</button>
+    </div>
+
+    <table>
+        <thead>
+            <td>Item Name</td>
+            <td>Item Price</td>
+            <td>Catigorey</td>
+            <td>Item Image</td>
+            <td>Actions</td>
+        </thead>
+        <tbody id="Tbdy"></tbody>
+    </table>
+
+    <script src="/js/javas.js"></script>
+</body>
+
+</html>
